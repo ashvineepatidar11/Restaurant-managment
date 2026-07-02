@@ -12,7 +12,7 @@ for item,price in menu.items():
 
 order_list = []
 while True:
-    item = input("Enter item name to order (or type 'done' to finish): ")
+    item = input("Enter item name to order (or type 'done' to finish):")
 
     if item.lower() == "done":
         break
